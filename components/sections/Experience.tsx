@@ -16,7 +16,7 @@ const EXPERIENCES = [
     num: '02', side: 'left', company: 'Techno International NewTown', logo: '/portfolio_assets/tict_logo_new_2019.png', // Add your college logo
     role: 'B.Tech in Computer Science', date: '2022 – 2026',
     bullets: [
-      'Pursuing a comprehensive curriculum focused on Data Structures, Algorithms, Database Management, and Software Engineering.',
+      'Graduated in 2026 with a B.Tech in Computer Science. Core coursework in Data Structures & Algorithms, DBMS, Operating Systems, OOP, and Web Technologies.',
       'Maintaining a strong academic record while actively participating in technical fests and coding competitions.',
       'Relevant Coursework: Operating Systems, Object-Oriented Programming, Web Technologies.',
     ],

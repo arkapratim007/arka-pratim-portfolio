@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Arka Pratim',
+  title: 'Arka Pratim | Full Stack & AI Developer',
   description: 'Personal Portfolio of Arka Pratim, a full stack developer. Explore my projects, experience, and skills.',
-  metadataBase: new URL('https://arkapratim.dev/'),
+  metadataBase: new URL('https://arkapratim.tech/'),
   openGraph: {
     type: 'website',
     title: 'Arka Pratim | Personal Portfolio',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     icon: '/portfolio_assets/my_logo.svg',
   },
   alternates: {
-    canonical: 'https://arkapratim.dev/',
+    canonical: 'https://arkapratim.tech/',
   },
 }
 

@@ -50,7 +50,7 @@ export default function Hero({ onOpenResume }: { onOpenResume: () => void }) {
       <div className="floating-icon icon-bottom-right"><i className="fa-regular fa-lightbulb"></i></div>
 
       <div className="content-wrapper">
-        <h2 className="sub-title">Woah! You Landed on the Portfolio Website of The</h2>
+        <h2 className="sub-title">Woah! You Landed on the Portfolio Website of</h2>
         <br /><br />
         <h1 className="sr-only">Arka Pratim - Software Developer Portfolio</h1>
         <h2 className="main-title"><span className="purple-text" id="typing-text">{typedText}</span></h2>
