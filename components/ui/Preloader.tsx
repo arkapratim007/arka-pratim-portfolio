@@ -22,7 +22,7 @@ export default function Preloader() {
     }
 
     const startTime = Date.now()
-    const duration = 3500
+    const duration = 2000
 
     const interval = setInterval(() => {
       const elapsed = Date.now() - startTime

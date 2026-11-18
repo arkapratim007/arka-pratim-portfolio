@@ -9,13 +9,13 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Arka Pratim | Personal Portfolio',
     description: 'Explore my projects, work experience, and technical skills.',
-    images: ['https://raw.githubusercontent.com/akapratim007/arka-pratim-portfolio/main/portfolio_assets/my_logo.svg'],
+    images: ['/hero_thumb.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Arka Pratim | Personal Portfolio',
     description: 'Explore my projects, work experience, and technical skills.',
-    images: ['https://raw.githubusercontent.com/akapratim007/arka-pratim-portfolio/main/portfolio_assets/my_logo.svg'],
+    images: ['/hero_thumb.png'],
   },
   icons: {
     icon: '/portfolio_assets/my_logo.svg',
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       </head>

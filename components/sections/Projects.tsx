@@ -54,13 +54,26 @@ export default function Projects() {
             <div className="project-tag" style={{ display: 'inline-block', width: 'max-content' }}>{p.tag}</div>
             <h3>{p.title}</h3>
             <p>{p.desc}</p>
-            <div className="project-links-wrapper">
+                        <div className="project-links-wrapper">
               {p.live ? (
-                <a href={p.live} target="_blank" rel="noreferrer" className="project-btn primary-btn"><i className="fa-regular fa-eye"></i> View Live</a>
+                <a href={p.live} target="_blank" rel="noreferrer" className="project-btn primary-btn">
+                  <i className="fa-regular fa-eye"></i> View Live
+                </a>
               ) : (
-                <a href="javascript:void(0)" className="project-btn primary-btn inactive-btn"><i className="fa-regular fa-eye"></i> View Live</a>
+                <span className="project-btn primary-btn inactive-btn">
+                  <i className="fa-regular fa-eye"></i> View Live
+                </span>
               )}
-              <a href={p.github} target="_blank" rel="noreferrer" className="project-btn primary-btn"><i className="fa-brands fa-github"></i> GitHub</a>
+              
+              {p.github && p.github !== '#' ? (
+                <a href={p.github} target="_blank" rel="noreferrer" className="project-btn primary-btn">
+                  <i className="fa-brands fa-github"></i> GitHub
+                </a>
+              ) : (
+                <span className="project-btn primary-btn inactive-btn">
+                  <i className="fa-brands fa-github"></i> GitHub
+                </span>
+              )}
             </div>
           </div>
         ))}

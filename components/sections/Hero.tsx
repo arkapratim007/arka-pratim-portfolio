@@ -16,7 +16,7 @@ export default function Hero({ onOpenResume }: { onOpenResume: () => void }) {
       if (isDeleting) {
         setTypedText(currentWord.substring(0, charIndex - 1))
         charIndex--
-      } else {
+      } else {  
         setTypedText(currentWord.substring(0, charIndex + 1))
         charIndex++
       }
@@ -43,7 +43,7 @@ export default function Hero({ onOpenResume }: { onOpenResume: () => void }) {
   }, [])
 
   return (
-    <main className="hero" id="home">
+    <section className="hero" id="home">
       <div className="floating-icon icon-top-left"><i className="fa-solid fa-code"></i></div>
       <div className="floating-icon icon-top-right"><i className="fa-solid fa-brain"></i></div>
       <div className="floating-icon icon-bottom-left"><i className="fa-solid fa-trophy"></i></div>
@@ -62,6 +62,6 @@ export default function Hero({ onOpenResume }: { onOpenResume: () => void }) {
           <button onClick={onOpenResume} className="btn-resume" style={{ background: 'transparent' }}>View Resume</button>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
